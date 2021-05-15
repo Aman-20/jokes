@@ -1,0 +1,16 @@
+import pyjokes
+
+print("Joke: 1")
+joke1 = pyjokes.get_joke(language='en', category='all')
+print(joke1)
+
+print("joke: 2")
+joke2 = pyjokes.get_joke(language='en',category='neutral')
+print(joke2)
+
+print("joke: 3")
+joke3 = pyjokes.get_joke(language='en',category='chuck')
+print(joke3)
+
+print("joke: 4")
+choice = (input("PRESS ANY KEY TO EXIT: "))
